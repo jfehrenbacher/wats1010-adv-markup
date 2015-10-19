@@ -1,1 +1,47 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+	display: inline;
+}
+
+a.active {
+	font-weight: bold;
+}
+
+#sidebar {
+	width: 250px;
+	float: right;
+	background: pink;
+	margin: 20px;
+	padding: 10px;
+}
+
+ul
+{
+list-style-type: none;
+padding: 10px;
+}
+
+ul.poem {
+	background: pink;
+	width: 400px;
+	font-family: serif;
+}
+
+p.bio-photo {
+	float: left;
+	background: pink;
+	width: 250px;
+	padding-right: 25px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: -5px;
+	margin-right:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+dt {
+	font-weight: bold;
+}
